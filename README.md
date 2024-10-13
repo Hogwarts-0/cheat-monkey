@@ -7,6 +7,7 @@ NUMBER_REGION是数字所在的具体区域（相对坐标）。
 
 
 你需要根据你的屏幕和游戏窗口的位置，调整这两个区域的值。
+屏幕坐标获取工具：https://zhangweixi.cc/static/windows-xy.html
 如国你不确定位置是否正确，可以运行代码"test"运行后，它会显示你当前设置的NUMBER_REGION区域截图，你可以根据实际情况调整数字区域的坐标和大小
 
 
