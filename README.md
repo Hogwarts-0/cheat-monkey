@@ -1,6 +1,8 @@
 # cheat-monkey
 小猿搜题自动化，可实现20以内及100以内的数判断大小
 
+程序的运行依赖Tesseract
+
 
 GAME_REGION是游戏窗口在屏幕上的位置（左上角的x, y坐标和宽度、高度）。
 NUMBER_REGION是数字所在的具体区域（相对坐标）。
