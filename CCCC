@@ -1,0 +1,10 @@
+from torchvision.models import ResNet18_Weights
+
+# 使用新的方式加载预训练模型
+model = models.resnet18(weights=ResNet18_Weights.IMAGENET1K_V1)
+
+# 替换最后一层全连接层，适应数据集类别数量
+num_ftrs = model.fc.in_features
+model.fc = nn.Linear(num_ftrs, len(class_names))
+
+model = model.to(device)
